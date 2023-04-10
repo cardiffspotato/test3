@@ -1,0 +1,54 @@
+body{
+    background-image: url('yonsei_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Do Hyeon', sans-serif !important;
+}
+
+#nav-text-custom{
+    color: white;
+}
+
+.sports_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 10vh;
+    font-size: 1.3rem;
+}
+
+.sports_picture{
+    width: 25vw;
+    border-radius: 2rem;
+}
+
+.sports_ex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.player_picture{
+    width: 16vw;
+    border-radius: 2rem;
+}
+
+.player_ex{
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.player_ex:hover {
+    transform: scale(1.05); /* 20% 확대 */
+}

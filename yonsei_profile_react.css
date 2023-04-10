@@ -1,0 +1,70 @@
+@media all and (max-width: 768px){
+    body{
+        background: fixed;
+        background-image: url('yonsei_profile_mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        }
+        .navbar{
+            font-size: 14px;
+            color: white;
+        }
+        .navbar-toggler {
+            background-color: gray !important;
+        }                
+        .sports_profile {
+            display: flex;
+            flex-direction: column;
+            font-size: 0.7rem;
+            gap: 2rem;
+            align-items: center;
+        }
+        .sports_ex{
+            text-align: center;
+            width: 90vw;
+        }
+        .sports_picture {
+            width: 40vw;
+            border-radius: 1rem;
+        }
+        .player_ex{
+            font-size: 0.7rem;
+        }
+        .player_picture {
+            width: 20vw;
+            border-radius: 1rem;
+        }
+        #nav-text-custom{
+            margin-top: 0.8rem;
+        }
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background: fixed;
+        background-image: url('yonsei_profile_ipad.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .sports_profile{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.1rem;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .player_list{
+        gap: 5rem;
+    }
+    .navbar{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .navbar-toggler {
+        background-color: gray !important;
+    }
+}
